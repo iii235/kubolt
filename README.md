@@ -2,7 +2,7 @@
 
 
 # Wat?
-**Kubolt** is simple utility for scanning public unauthinticated kubernetes clusters and run commands inside containers
+**Kubolt** is simple utility for scanning public unauthinticated kubernetes clusters and run commands inside containers. This version is designed so you don´t need shodan, just a list of ips with port 10250 open.
 
 # Why?
 Sometimes, the kubelet port 10250 is open to unauthorized access and makes it possible to run commands inside the containers using getrun function from [kubelet](https://github.com/kubernetes/kubernetes/blob/master/pkg/kubelet/server/server.go):
